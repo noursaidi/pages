@@ -4,7 +4,7 @@
       document.querySelectorAll("pre.mermaid, pre>code.language-mermaid").forEach($element => {
         $element.parentElement.outerHTML = `<div class="mermaid">${$element.textContent}</div>`
       });
-     mermaid.initialize(
+     mermaid.initialize();
 });
 
 </script>
