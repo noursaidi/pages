@@ -1,4 +1,5 @@
 ```mermaid
+%%{wrap}%%
 sequenceDiagram
     autonumber
     participant E as Original Endpoint
@@ -16,6 +17,7 @@ sequenceDiagram
 ### Invalid Endpoint (Unsuccessful Reconfiguration)
 
 ```mermaid
+%%{wrap}%%
 sequenceDiagram
     autonumber
     participant E as Original Endpoint
